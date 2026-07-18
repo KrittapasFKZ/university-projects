@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tours",
+  "info": {
+    "singularName": "tour",
+    "pluralName": "tours",
+    "displayName": "Tour",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tour_name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tour_date": {
+      "type": "datetime"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "user_amount": {
+      "type": "integer",
+      "default": 0
+    },
+    "user_max": {
+      "type": "integer",
+      "default": 50
+    },
+    "tour_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "destination": {
+      "type": "json"
+    },
+    "reserves": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::reserve.reserve",
+      "mappedBy": "tour_id"
+    }
+  }
+}

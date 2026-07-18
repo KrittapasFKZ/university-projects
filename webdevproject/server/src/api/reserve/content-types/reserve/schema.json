@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reserves",
+  "info": {
+    "singularName": "reserve",
+    "pluralName": "reserves",
+    "displayName": "Reserve",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "reserves"
+    },
+    "tour_id": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::tour.tour",
+      "inversedBy": "reserves"
+    },
+    "reserve_date": {
+      "type": "datetime"
+    },
+    "reserve_amount": {
+      "type": "integer"
+    },
+    "total_price": {
+      "type": "decimal"
+    },
+    "payment_method": {
+      "type": "string"
+    },
+    "payment_status": {
+      "type": "boolean",
+      "default": false
+    },
+    "confirm_date": {
+      "type": "datetime"
+    },
+    "user_phone": {
+      "type": "string"
+    },
+    "user_email": {
+      "type": "string"
+    }
+  }
+}

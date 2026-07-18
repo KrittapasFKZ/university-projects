@@ -1,0 +1,72 @@
+* {
+  font-family: 'Kanit', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #F5F5F5;
+  /* background-image: url('./Image/test.jpg'); */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  background-color: #F5F5F5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.promotional-slider-wrapper {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 30%;
+  margin: 0 auto;
+  min-height: 40vh;
+  margin-top: 50px;
+}
+
+.slider-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.scroll_button {
+  margin-left: 85%;
+  position: absolute;
+  top: 550px;
+}
+
+.circle_button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  background-image: url("Image/down.png");
+  background-position: center;
+  background-size: cover;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}

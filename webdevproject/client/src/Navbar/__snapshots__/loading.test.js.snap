@@ -1,0 +1,575 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingIcon component is accessible 1`] = `
+<div>
+  <div
+    className="css-dev-only-do-not-override-1xg9z9n ant-empty ant-empty-normal"
+    style={Object {}}
+  >
+    <div
+      className="ant-empty-image"
+    >
+      <svg
+        height="41"
+        viewBox="0 0 64 41"
+        width="64"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          transform="translate(0 1)"
+        >
+          <ellipse
+            cx="32"
+            cy="33"
+            fill="#f5f5f5"
+            rx="32"
+            ry="7"
+          />
+          <g
+            fillRule="nonzero"
+            stroke="#d9d9d9"
+          >
+            <path
+              d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
+            />
+            <path
+              d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
+              fill="#fafafa"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div
+      className="ant-empty-description"
+    >
+      No data
+    </div>
+  </div>
+  <div
+    aria-busy={true}
+    aria-live="polite"
+    className="ant-spin ant-spin-spinning css-dev-only-do-not-override-1xg9z9n"
+    style={Object {}}
+  >
+    <span
+      aria-label="loading"
+      className="anticon anticon-loading anticon-spin ant-spin-dot"
+      role="img"
+      style={
+        Object {
+          "fontSize": 75,
+        }
+      }
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="loading"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="0 0 1024 1024"
+        width="1em"
+      >
+        <path
+          d="M988 548c-19.9 0-36-16.1-36-36 0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 00-94.3-139.9 437.71 437.71 0 00-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.3C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3.1 19.9-16 36-35.9 36z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders LoadingIcon component 1`] = `
+<div>
+  <div
+    className="css-dev-only-do-not-override-1xg9z9n ant-empty ant-empty-normal"
+    style={Object {}}
+  >
+    <div
+      className="ant-empty-image"
+    >
+      <svg
+        height="41"
+        viewBox="0 0 64 41"
+        width="64"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          transform="translate(0 1)"
+        >
+          <ellipse
+            cx="32"
+            cy="33"
+            fill="#f5f5f5"
+            rx="32"
+            ry="7"
+          />
+          <g
+            fillRule="nonzero"
+            stroke="#d9d9d9"
+          >
+            <path
+              d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
+            />
+            <path
+              d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
+              fill="#fafafa"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div
+      className="ant-empty-description"
+    >
+      No data
+    </div>
+  </div>
+  <div
+    aria-busy={true}
+    aria-live="polite"
+    className="ant-spin ant-spin-spinning css-dev-only-do-not-override-1xg9z9n"
+    style={Object {}}
+  >
+    <span
+      aria-label="loading"
+      className="anticon anticon-loading anticon-spin ant-spin-dot"
+      role="img"
+      style={
+        Object {
+          "fontSize": 75,
+        }
+      }
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="loading"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="0 0 1024 1024"
+        width="1em"
+      >
+        <path
+          d="M988 548c-19.9 0-36-16.1-36-36 0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 00-94.3-139.9 437.71 437.71 0 00-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.3C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3.1 19.9-16 36-35.9 36z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders LoadingIcon component in loading state 1`] = `
+<div>
+  <div
+    className="css-dev-only-do-not-override-1xg9z9n ant-empty ant-empty-normal"
+    style={Object {}}
+  >
+    <div
+      className="ant-empty-image"
+    >
+      <svg
+        height="41"
+        viewBox="0 0 64 41"
+        width="64"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          transform="translate(0 1)"
+        >
+          <ellipse
+            cx="32"
+            cy="33"
+            fill="#f5f5f5"
+            rx="32"
+            ry="7"
+          />
+          <g
+            fillRule="nonzero"
+            stroke="#d9d9d9"
+          >
+            <path
+              d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
+            />
+            <path
+              d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
+              fill="#fafafa"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div
+      className="ant-empty-description"
+    >
+      No data
+    </div>
+  </div>
+  <div
+    aria-busy={true}
+    aria-live="polite"
+    className="ant-spin ant-spin-spinning css-dev-only-do-not-override-1xg9z9n"
+    style={Object {}}
+  >
+    <span
+      aria-label="loading"
+      className="anticon anticon-loading anticon-spin ant-spin-dot"
+      role="img"
+      style={
+        Object {
+          "fontSize": 75,
+        }
+      }
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="loading"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="0 0 1024 1024"
+        width="1em"
+      >
+        <path
+          d="M988 548c-19.9 0-36-16.1-36-36 0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 00-94.3-139.9 437.71 437.71 0 00-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.3C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3.1 19.9-16 36-35.9 36z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders LoadingIcon component with custom size 1`] = `
+<div>
+  <div
+    className="css-dev-only-do-not-override-1xg9z9n ant-empty ant-empty-normal"
+    style={Object {}}
+  >
+    <div
+      className="ant-empty-image"
+    >
+      <svg
+        height="41"
+        viewBox="0 0 64 41"
+        width="64"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          transform="translate(0 1)"
+        >
+          <ellipse
+            cx="32"
+            cy="33"
+            fill="#f5f5f5"
+            rx="32"
+            ry="7"
+          />
+          <g
+            fillRule="nonzero"
+            stroke="#d9d9d9"
+          >
+            <path
+              d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
+            />
+            <path
+              d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
+              fill="#fafafa"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div
+      className="ant-empty-description"
+    >
+      No data
+    </div>
+  </div>
+  <div
+    aria-busy={true}
+    aria-live="polite"
+    className="ant-spin ant-spin-spinning css-dev-only-do-not-override-1xg9z9n"
+    style={Object {}}
+  >
+    <span
+      aria-label="loading"
+      className="anticon anticon-loading anticon-spin ant-spin-dot"
+      role="img"
+      style={
+        Object {
+          "fontSize": 75,
+        }
+      }
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="loading"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="0 0 1024 1024"
+        width="1em"
+      >
+        <path
+          d="M988 548c-19.9 0-36-16.1-36-36 0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 00-94.3-139.9 437.71 437.71 0 00-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.3C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3.1 19.9-16 36-35.9 36z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders LoadingIcon component with different color 1`] = `
+<div>
+  <div
+    className="css-dev-only-do-not-override-1xg9z9n ant-empty ant-empty-normal"
+    style={Object {}}
+  >
+    <div
+      className="ant-empty-image"
+    >
+      <svg
+        height="41"
+        viewBox="0 0 64 41"
+        width="64"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          transform="translate(0 1)"
+        >
+          <ellipse
+            cx="32"
+            cy="33"
+            fill="#f5f5f5"
+            rx="32"
+            ry="7"
+          />
+          <g
+            fillRule="nonzero"
+            stroke="#d9d9d9"
+          >
+            <path
+              d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
+            />
+            <path
+              d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
+              fill="#fafafa"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div
+      className="ant-empty-description"
+    >
+      No data
+    </div>
+  </div>
+  <div
+    aria-busy={true}
+    aria-live="polite"
+    className="ant-spin ant-spin-spinning css-dev-only-do-not-override-1xg9z9n"
+    style={Object {}}
+  >
+    <span
+      aria-label="loading"
+      className="anticon anticon-loading anticon-spin ant-spin-dot"
+      role="img"
+      style={
+        Object {
+          "fontSize": 75,
+        }
+      }
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="loading"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="0 0 1024 1024"
+        width="1em"
+      >
+        <path
+          d="M988 548c-19.9 0-36-16.1-36-36 0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 00-94.3-139.9 437.71 437.71 0 00-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.3C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3.1 19.9-16 36-35.9 36z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders bar variant of LoadingIcon component 1`] = `
+<div>
+  <div
+    className="css-dev-only-do-not-override-1xg9z9n ant-empty ant-empty-normal"
+    style={Object {}}
+  >
+    <div
+      className="ant-empty-image"
+    >
+      <svg
+        height="41"
+        viewBox="0 0 64 41"
+        width="64"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          transform="translate(0 1)"
+        >
+          <ellipse
+            cx="32"
+            cy="33"
+            fill="#f5f5f5"
+            rx="32"
+            ry="7"
+          />
+          <g
+            fillRule="nonzero"
+            stroke="#d9d9d9"
+          >
+            <path
+              d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
+            />
+            <path
+              d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
+              fill="#fafafa"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div
+      className="ant-empty-description"
+    >
+      No data
+    </div>
+  </div>
+  <div
+    aria-busy={true}
+    aria-live="polite"
+    className="ant-spin ant-spin-spinning css-dev-only-do-not-override-1xg9z9n"
+    style={Object {}}
+  >
+    <span
+      aria-label="loading"
+      className="anticon anticon-loading anticon-spin ant-spin-dot"
+      role="img"
+      style={
+        Object {
+          "fontSize": 75,
+        }
+      }
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="loading"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="0 0 1024 1024"
+        width="1em"
+      >
+        <path
+          d="M988 548c-19.9 0-36-16.1-36-36 0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 00-94.3-139.9 437.71 437.71 0 00-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.3C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3.1 19.9-16 36-35.9 36z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders spinner variant of LoadingIcon component 1`] = `
+<div>
+  <div
+    className="css-dev-only-do-not-override-1xg9z9n ant-empty ant-empty-normal"
+    style={Object {}}
+  >
+    <div
+      className="ant-empty-image"
+    >
+      <svg
+        height="41"
+        viewBox="0 0 64 41"
+        width="64"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          transform="translate(0 1)"
+        >
+          <ellipse
+            cx="32"
+            cy="33"
+            fill="#f5f5f5"
+            rx="32"
+            ry="7"
+          />
+          <g
+            fillRule="nonzero"
+            stroke="#d9d9d9"
+          >
+            <path
+              d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
+            />
+            <path
+              d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
+              fill="#fafafa"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div
+      className="ant-empty-description"
+    >
+      No data
+    </div>
+  </div>
+  <div
+    aria-busy={true}
+    aria-live="polite"
+    className="ant-spin ant-spin-spinning css-dev-only-do-not-override-1xg9z9n"
+    style={Object {}}
+  >
+    <span
+      aria-label="loading"
+      className="anticon anticon-loading anticon-spin ant-spin-dot"
+      role="img"
+      style={
+        Object {
+          "fontSize": 75,
+        }
+      }
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="loading"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="0 0 1024 1024"
+        width="1em"
+      >
+        <path
+          d="M988 548c-19.9 0-36-16.1-36-36 0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 00-94.3-139.9 437.71 437.71 0 00-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.3C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3.1 19.9-16 36-35.9 36z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
