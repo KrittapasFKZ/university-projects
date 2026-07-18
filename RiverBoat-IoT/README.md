@@ -34,3 +34,7 @@ The system's workload is distributed across three main processing nodes:
 *   **Software:** Arduino IDE, C/C++, Python (Flask, OpenCV), Arduino IoT Cloud
 *   **Microcontrollers:** ODROID-C4, ESP32 NodeMCU, Arduino UNO R3
 *   **Sensors & Actuators:** HC-SR04 Ultrasonic, DS18B20 Temperature Sensor, L298N Motor Driver, DC Motors, Webcam
+
+## 📄 Project Report
+The full project report, including detailed schematics, workflows, and test results, can be accessed here:
+*   [🔗 View Full Project Report](https://link.psu.th/2mnePP)
