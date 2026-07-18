@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "upgrades",
+  "info": {
+    "singularName": "upgrade",
+    "pluralName": "upgrades",
+    "displayName": "Upgrade",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Upgrade_Health": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "Upgrade_Damage": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "Upgrade_Skill": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "Upgrade_Defense": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "owner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "upgrade"
+    }
+  }
+}
